@@ -10,14 +10,3 @@ This project implements a system for detecting deepfake videos and audio using p
 - **Livestream Video Analysis**: Perform real-time video analysis for deepfake detection using a webcam.
 
 
-## Setup
-
-### Prerequisites
-
-- Python 3.x
-- Git
-- Install dependencies using `pip`:
-
-  ```bash
-  pip install -r requirements.txt
-
