@@ -1,1 +1,13 @@
+streamlit
+av
+ffmpeg
+streamlit-webrtc
+ultralytics
+torch
+transformers
+numpy
+portaudio19-dev
+pyaudio
+streamlit-authenticator
+streamlit-audiorec
 
