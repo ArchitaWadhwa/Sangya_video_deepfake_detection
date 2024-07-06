@@ -37,6 +37,11 @@ AuthentiCheck is a robust system designed for detecting deepfake videos and audi
 
 2. **Perform Real-Time Deepfake Detection:**
    - The application starts streaming video from your webcam, performing real-time analysis to detect deepfake content as the video streams.
+## Preprocessing Method
+
+- **YOLO for Face Detection and Tracking**:
+  - We used YOLO for face detection to preprocess the video frames.
+  - By tracking the face across frames, we avoid the need to detect the face in every frame, saving processing time and improving efficiency.
 
 ## Tech Stack
 
