@@ -5,6 +5,7 @@
 ## Overview
 
 AuthentiCheck is a robust system designed for detecting deepfake videos and audio using advanced pretrained models. The project offers functionalities for video and audio analysis, including real-time livestream video processing. It leverages Streamlit for the web interface, PyTorch for video deepfake detection, and several other essential libraries.
+![i1](https://github.com/ArchitaWadhwa/Sangya_video_deepfake_detection/assets/120119962/d81f446d-f108-4f7b-a813-11b46dd90a86)
 
 ## Features
 
@@ -52,6 +53,7 @@ To achieve this, we leveraged cutting-edge technologies:
 - **Late Fusion Technique**: Used for the fusion of video and audio features, allowing comprehensive and accurate classification.
 - **Streamlit**: Utilized for deploying the solution, providing a user-friendly interface for both real-time and uploaded video analysis.
 - **PyTorch**: Employed for implementing deep learning models.
+![i2](https://github.com/ArchitaWadhwa/Sangya_video_deepfake_detection/assets/120119962/55bc530e-cf75-462a-9cef-4ff6dbb2e1c6)
 
 ## Setup Instructions
 
