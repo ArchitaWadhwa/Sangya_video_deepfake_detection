@@ -60,4 +60,6 @@ To achieve this, we leveraged cutting-edge technologies:
   
 - **Web Interface:** Streamlit provides an intuitive web interface where users can interact with the application directly in their browser. Make sure to handle errors, exceptions, and user interactions gracefully within your Streamlit application logic.
 
+![image](https://github.com/ArchitaWadhwa/Sangya_video_deepfake_detection/assets/120119962/5f2773c2-e855-426f-b461-83d5cc76f7cb)
+
 
