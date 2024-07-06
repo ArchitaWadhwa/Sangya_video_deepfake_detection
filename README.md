@@ -1,24 +1,23 @@
-# #AuthentiCheck
+# AuthentiCheck
 
 ## Video and Audio Deepfake Detection Project
 
 ## Overview
 
-This project implements a system for detecting deepfake videos and audio using pretrained models. It provides functionalities for video and audio analysis and livestream video processing. The application utilizes Streamlit for the web interface, PyAV for video handling, PyTorch for video deepfake detection, and other necessary libraries.
+AuthentiCheck is a robust system designed for detecting deepfake videos and audio using advanced pretrained models. The project offers functionalities for video and audio analysis, including real-time livestream video processing. It leverages Streamlit for the web interface, PyTorch for video deepfake detection, and several other essential libraries.
 
 ## Features
 
 ### Deepfake Video Detection
 
 1. **Upload a Video File:**
-   - Use the provided file upload widget to upload a video file (.mp4, .mov).
+   - Use the file upload widget to upload a video file (.mp4, .mov).
 
 2. **Analyze Video for Deepfake Content:**
-   - Click the "Check" button to analyze the uploaded video for deepfake content.
-   - The application uses a pretrained VideoMAE model to perform the analysis.
+   - Click the "Check" button to analyze the uploaded video for deepfake content using a pretrained ViViT transformer model.
 
 3. **View Results:**
-   - Displayed results include the predicted label ('REAL' or 'FAKE') and the confidence score indicating the model's prediction certainty.
+   - Results include the predicted label ('REAL' or 'FAKE') and a confidence score indicating the model's prediction certainty.
 
 ### Deepfake Audio Detection
 
@@ -26,8 +25,7 @@ This project implements a system for detecting deepfake videos and audio using p
    - Use the file upload widget to upload an audio file (.wav, .mp3).
 
 2. **Analyze Audio for Deepfake Content:**
-   - Click the "Check" button to analyze the uploaded audio file for deepfake content.
-   - The application utilizes an audio-based detection model for this analysis.
+   - Click the "Check" button to analyze the uploaded audio file using the Wav2vec model.
 
 3. **View Analysis Results:**
    - Results provide insights into the authenticity of the audio file, indicating if it contains suspicious content.
@@ -35,12 +33,20 @@ This project implements a system for detecting deepfake videos and audio using p
 ### Livestream Video Analysis
 
 1. **Access Webcam for Real-Time Analysis:**
-   - Navigate to the "Livestream Video" section.
-   - Grant permissions to allow the application to access your webcam.
+   - Navigate to the "Livestream Video" section and grant permissions to allow the application to access your webcam.
 
 2. **Perform Real-Time Deepfake Detection:**
-   - The application starts streaming video from your webcam.
-   - Real-time analysis is performed to detect deepfake content as the video streams.
+   - The application starts streaming video from your webcam, performing real-time analysis to detect deepfake content as the video streams.
+
+## Tech Stack
+
+To achieve this, we leveraged cutting-edge technologies:
+- **ViViT Transformer Model**: Used to extract intricate features from video data, ensuring high accuracy in deepfake detection.
+- **Wav2vec Model**: Employed for analyzing audio features, adding an extra layer of verification and enhancing detection capabilities.
+- **Late Fusion Technique**: Used for the fusion of video and audio features, allowing comprehensive and accurate classification.
+- **Streamlit**: Utilized for deploying the solution, providing a user-friendly interface for both real-time and uploaded video analysis.
+- **PyTorch**: Employed for implementing deep learning models.
+
 ## Setup Instructions
 
 ### Prerequisites
