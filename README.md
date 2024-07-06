@@ -39,9 +39,10 @@ AuthentiCheck is a robust system designed for detecting deepfake videos and audi
    - The application starts streaming video from your webcam, performing real-time analysis to detect deepfake content as the video streams.
 ## Preprocessing Method
 
-- **YOLO for Face Detection and Tracking**:
-  - We used YOLO for face detection to preprocess the video frames.
-  - By tracking the face across frames, we avoid the need to detect the face in every frame, saving processing time and improving efficiency.
+- **YOLOv8 Custom Fine-Tuned for Face Detection**:
+  - We used YOLOv8, custom fine-tuned for face detection, to preprocess the video frames.
+  - **OpenCV Built-In Object Tracking for Face Tracking**:
+    - After detecting the face using YOLOv8, we utilized OpenCV's built-in object tracking for continuous face tracking across frames. This approach avoids the need for detecting the face in every frame, saving processing time and improving efficiency.
 
 ## Tech Stack
 
